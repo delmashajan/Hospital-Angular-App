@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class PatientSearchComponent {
 
+  pid=""
+
+  readValue=()=>
+  {
+    let data:any={
+      "pid":this.pid
+    }
+    console.log(data)
+  }
+
 }
